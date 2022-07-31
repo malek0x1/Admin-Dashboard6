@@ -1,0 +1,96 @@
+/* lal mobo 5ale el sidebar mtl awal project y3ne display row w middle of screen top */
+
+.SideBar {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    width: 149px;
+    flex-direction: column;
+    border-right: 1px solid rgba(238, 238, 238, 0.692);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.SideBar-square {
+    height: 68px;
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.SideBar-Icon-Border {
+    border: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+.orange {
+    background: #FD8A75
+}
+
+.purple {
+    background: #5D4E7B
+}
+
+
+.SideBar-Body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SideBar-Icon {
+    font-size: 40px !important;
+    font-weight: 0 !important;
+}
+
+
+
+@media (max-width: 850px) {
+    .SideBar-square {
+        height: 58px;
+        width: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .SideBar {
+        min-width: 100px;
+        max-width: 100px;
+        flex-direction: column;
+        border-right: 1px solid rgba(238, 238, 238, 0.692);
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 580px) {
+    .SideBar-square {
+        height: 45px;
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .SideBar {
+        min-width: 70px;
+        max-width: 70px;
+        flex-direction: column;
+        border-right: 1px solid rgba(238, 238, 238, 0.692);
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+        max-height: 90vh;
+        min-height: 90vh;
+
+    }
+}
