@@ -2,7 +2,7 @@
 
 .SideBar {
     background-color: #FFFFFF;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     width: 149px;
     flex-direction: column;
@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
+}
+.pointer{
+    cursor: pointer;
 }
 
 .SideBar-square {

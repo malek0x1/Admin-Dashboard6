@@ -7,7 +7,6 @@ const SideBar = () => {
             <div className="SideBar-Header">
                 <div className="SideBar-square purple">
                 <DiamondOutlined sx={{ color: 'white' }} className="SideBar-Icon" />
-
                 </div>
             </div>
             <div className="SideBar-Body">
